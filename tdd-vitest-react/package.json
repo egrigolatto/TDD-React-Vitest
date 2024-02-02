@@ -1,0 +1,29 @@
+{
+  "name": "tdd-vitest-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^14.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "happy-dom": "^13.3.8",
+    "standart": "^6.1.0",
+    "vitest": "^1.2.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standart/eslintrc.json"
+  },
+  "dependencies": {
+    "mathjs": "^12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
